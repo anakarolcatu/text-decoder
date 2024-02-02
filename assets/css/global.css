@@ -1,0 +1,40 @@
+@import url(main.css);
+@import url(responsive.css);
+
+
+:root{
+    --background-color: #2C3531;
+    --destaque-cor: #116466;
+    --claro: #F0ECE3;
+    --destaque-neutro: #FFCB9A;
+    --fonte: 'Courier New', Courier, monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte);
+    box-sizing: border-box;
+}
+
+header {
+    flex-direction: row;
+    margin: 2% 0 0 2%;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+*button{
+    cursor: pointer;
+}
+
+*button:hover{
+    opacity: 80%;
+}
+
+footer{
+    background-color: var(--claro);
+    align-items: end;
+}

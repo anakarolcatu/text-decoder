@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+
+<body>
+   
+    <header class="header">
+        <div class="header_container">
+            <img class="header_container_img" src="./assets/img/Logo.svg" alt="logotipo alura">
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="main_aside">
+            <main class="main_container">
+                <div class="main_container_input">
+                    <textarea class="input_textarea"  placeholder="Digite seu texto aqui"></textarea>
+                </div>
+
+                <p class="info_p">
+                    <ion-icon name="alert-circle" aria-label="símbolo de exclamação"></ion-icon>
+                    <span>Apenas letras minúsculas e sem acento.</span>
+                </p>
+
+                <div class="input_botoes_submit">
+                    <button class="input_botoes_submit_cripto main_button" onclick="transformarTexto('cifra')">Criptografar</button>
+                    <button class="input_botoes_submit_descripto main_button" onclick="transformarTexto('decifra')">Descriptografar</button>
+                </div>
+            </main>
+         
+            <aside class="aside">
+                <div class="aside_resultado">
+                    <textarea readonly class="aside_resultado_output hidden"></textarea>
+                    <div class="aside_resultado_inicial">
+                        <img class="aside_img" src="./assets/img/High quality products 1 1.svg" alt="imagem de uma pessoa com uma lupa">
+                        <h2 class="aside_h2 title">Nenhuma mensagem encontrada</h2>
+                        <h3 class="aside_h3 title">Digite um texto que você deseja criptografar ou descriptografar.</h3>
+                    </div>
+
+                    <button class="aside_button_copy">
+                        <span>Copiar</span>
+                    </button>
+                </div>
+            </aside>
+        </div>
+    </div>
+            
+    <footer class="footer">
+        <p class="footer_p">Criado por Ana Karol</p>
+        <div class="footer_sm">
+            <a href="https://github.com/anakarolcatu" target="_blank"><ion-icon name="logo-github" aria-label="Github page"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/anakaroline/"><ion-icon name="logo-linkedin" aria-label="linkedin page"></ion-icon></a>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

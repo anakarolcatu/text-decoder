@@ -1,0 +1,108 @@
+@media(max-width: 950px) {
+    .main .main_aside {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .main_container {
+        width: 100%;
+    }
+
+    .input_textarea {
+        height: 30vh;
+    }
+
+    .input_botoes_submit {
+        justify-content: space-between;
+    }
+
+    .main_button {
+        font-size: 1.3125rem;
+        width: 45%;
+    }
+
+    .aside {
+        width: 100%;
+        height: 40%;
+    }
+
+    .aside_resultado_inicial {
+        margin: auto;
+    }
+
+    .aside_img {
+        display: none;
+    }
+}
+
+@media(max-width: 540px) {
+    .input_textarea {
+        font-size: 1.2rem;
+    }
+
+    .info_p {
+        font-size: 0.875rem;
+    }
+
+    .main_button {
+        font-size: 1rem;
+    }
+
+    .aside_resultado_output {
+        font-size: 1.2rem;
+    }
+
+    .aside_h2 {
+        font-size: 1.25rem;
+    }
+
+    .aside_h3 {
+        font-size: 0.825rem;
+    }
+
+    .aside_button_copy {
+        padding: 0.625rem;
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 390px) {
+    .input_textarea {
+        font-size: 1rem;
+    }
+
+    .info_p {
+        font-size: 0.75rem;
+    }
+
+    .main_button {
+        font-size: 0.875rem;
+        width: 47%;
+    }
+
+    .aside_resultado_output {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 340px) {
+
+    .input_botoes_submit{
+        flex-direction: column;
+        gap: 0.625rem;
+    }
+    
+    .main_button {
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    .aside_h2 {
+        font-size: 1.2rem;
+    }
+
+    .aside_h3 {
+        font-size: 0.75rem;
+    }
+}
