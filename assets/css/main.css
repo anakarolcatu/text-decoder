@@ -74,10 +74,21 @@
     border: 0.1rem solid var(--destaque-cor);
 }
 
+.input_botoes_submit_cripto:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--destaque-cor);
+    transform: translateY(-0.25em);
+}
+
+
 .input_botoes_submit_descripto {
     color: var(--destaque-neutro);
     background-color: var(--background-color);
     border: 0.1rem solid var(--destaque-neutro);
+}
+
+.input_botoes_submit_descripto:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--destaque-neutro);
+    transform: translateY(-0.25em);
 }
 
 /* aside */
@@ -154,6 +165,12 @@
     background-color: var(--destaque-cor);
     font-size: 1.3125rem;
     color: var(--claro);
+    box-shadow: 0px 12px 20px -15px black;
+}
+
+.aside_button_copy:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
 }
 
 .footer {

@@ -12,7 +12,7 @@ function substituirVogais(valueCrip) {
     'u': 'ufat'
   } 
   const cripto = valueCrip.replace(/[aeiou]/g, (vogal) => mapKeys[vogal]);
-  /* O g neste caso, significa que pega todas as strings de mandeira global, sem ele, apenas a primeira aparição será substituida */
+  /* O g neste caso, significa que pega todas as strings de maneira global, sem ele, apenas a primeira aparição será substituida */
   exibirResultado(cripto);
 }
 
