@@ -24,7 +24,7 @@ Requisitos:
 - Extra! (Um rodapé com os dados da pessoa que desenvolveu o site).
 
 <h3>Acesso ao projeto:</h3>
-Acesse aqui o projeto funcional.
+<a href="https://anakarolcatu.github.io/text-decoder/">Acesse aqui o projeto funcional.</a>
 
 <h3>Tecnologias utilizadas:</h3>
 
