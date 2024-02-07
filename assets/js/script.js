@@ -28,6 +28,7 @@ function voltarVogais(valueCrip) {
   exibirResultado(decripto);
 }
 
+function transformarTexto(botao) {
  let valueCrip = (textArea.value);
     let valorDoBotao = botao;
     if (valueCrip === '') {
