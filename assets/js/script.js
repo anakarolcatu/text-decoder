@@ -28,14 +28,13 @@ function voltarVogais(valueCrip) {
   exibirResultado(decripto);
 }
 
-function transformarTexto(botao) {
-    let valueCrip = (textArea.value).toLowerCase();
+ let valueCrip = (textArea.value);
     let valorDoBotao = botao;
     if (valueCrip === '') {
       return alert('Por favor, insira um texto para continuar.');
     } 
     
-    if (/[^a-z\s]/.test(valueCrip)) {
+    if (/[A-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]/.test(valueCrip)) {
       alert('Por favor, insira apenas letras minúsculas e sem acento.');
       return false;
   }
